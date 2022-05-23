@@ -32,3 +32,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "github-pages", "~> 226", group: :jekyll_plugins
+domain: python-coding-404.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://python-coding-404.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /hg.github.io/
