@@ -14,7 +14,7 @@ button_nav.addEventListener("click", function(event) {
         
 
 
-    } else {
+    } else if(body.classList.contains("bg-dark")) {
         navbar.classList.remove("navbar-dark")
         navbar.classList.remove("bg-dark")
         body.classList.remove("bg-dark");
@@ -28,6 +28,8 @@ button_nav.addEventListener("click", function(event) {
         
 
 
+    } else {
+        // ndothing
     }
     
 
